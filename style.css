@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 46px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+p{
+    font-size: 20px;
+}
+
+.name-highlight{
+    color: #ec4c7a;
+
+}
+
+.about{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.about img {
+    width: 100%;
+}
+
+
+.flex-display{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.headline1{
+
+    width: 35%;
+    padding-left: 10%;
+
+}
+
+.profile-image{
+    width: 35%;
+    padding-left: 10%;
+
+}
+
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.biography img {
+    width: 100%;
+}
+
+.work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.portfolio{
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.work-img {
+    width: 25%;
+}
+
+.work-img img{
+    width: 100%;
+}
+
+.headline2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+
+}
+
+.experience{
+    background-color: #f8f9fc;
+}
+
+.box{
+
+    border-radius: 7px;
+    height: 30%;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-bottom: 200px;
+    background-position: right;
+
+}
+
+.orange{
+    padding: 30px 60px;
+    background: #fff;
+    border-left: 10px solid;
+    border-radius: 5px;
+    border-image: linear-gradient( lightSalmon, tomato);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 20px grey;
+    width: 35%;
+}
+
+.blue{
+
+    padding: 30px 60px;
+    background: #fff;
+    border-left: 10px solid;
+    border-radius: 5px;
+    border-image: linear-gradient( cyan, blue);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 20px grey;
+    width: 35%;
+}
+
+.client{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.headline2-description{
+
+    text-align: center;
+
+}
+
+
+.contact {
+    padding: 50px 200px 80px 200px;
+    background-image: linear-gradient(45deg,#ec5196, #ed4b72);
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+
+}
+
+.contact a {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.copyright{
+    padding-top: 200px;
+}
+
+
+.copyright p {
+    text-align: center;
+    font-weight: 400;
+    color: #707070;
+}
